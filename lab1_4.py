@@ -21,7 +21,7 @@ print(add_tax(bill_total))
 
 
 def greet_user(name):
-    return "Hello " + name
+    return "Hello, " + name
 
 name = input("What is your name? ")
 
