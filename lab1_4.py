@@ -10,18 +10,19 @@ print(calculate_average(num1, num2, num3))
 
 # Tax
 
-num4 = float(input("Money: "))
+bill_total = float(input("Money: "))
 
-def bill_total(num4):
-    return (num4 * 0.1) + num4
+def add_tax(bill_total):
+    return (bill_total * 0.1) + bill_total
 
-print(bill_total(num4))
+print(add_tax(bill_total))
 
 # Greet
 
-name = input("What is your name? ")
 
 def greet_user(name):
-    return name
+    return "Hello " + name
 
-print(name, ", hello.")
+name = input("What is your name? ")
+
+print(greet_user(name))
