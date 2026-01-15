@@ -19,9 +19,9 @@ print(bill_total(num4))
 
 # Greet
 
-hello = input("What is your name? ")
+name = input("What is your name? ")
 
-def name(hello):
-    return hello
+def greet_user(name):
+    return name
 
-print(hello, ", hello.")
+print(name, ", hello.")
